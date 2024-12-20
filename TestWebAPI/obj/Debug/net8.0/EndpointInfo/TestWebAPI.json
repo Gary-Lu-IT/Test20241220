@@ -1,0 +1,281 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "TestWebAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/MyOffice/Insert": {
+      "post": {
+        "tags": [
+          "MyOffice"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddMyOfficeData"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddMyOfficeData"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddMyOfficeData"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MyOffice/Update": {
+      "post": {
+        "tags": [
+          "MyOffice"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateMyOfficeData"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateMyOfficeData"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateMyOfficeData"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MyOffice/Get": {
+      "post": {
+        "tags": [
+          "MyOffice"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteMyOfficeData"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteMyOfficeData"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteMyOfficeData"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MyOffice/Delete": {
+      "post": {
+        "tags": [
+          "MyOffice"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteMyOfficeData"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteMyOfficeData"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteMyOfficeData"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AddMyOfficeData": {
+        "type": "object",
+        "properties": {
+          "acpD_Cname": {
+            "type": "string",
+            "nullable": true
+          },
+          "acpD_Ename": {
+            "type": "string",
+            "nullable": true
+          },
+          "acpD_Sname": {
+            "type": "string",
+            "nullable": true
+          },
+          "acpD_Email": {
+            "type": "string",
+            "nullable": true
+          },
+          "acpD_Status": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "acpD_Stop": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "acpD_StopMemo": {
+            "type": "string",
+            "nullable": true
+          },
+          "acpD_LoginID": {
+            "type": "string",
+            "nullable": true
+          },
+          "acpD_LoginPWD": {
+            "type": "string",
+            "nullable": true
+          },
+          "acpD_Memo": {
+            "type": "string",
+            "nullable": true
+          },
+          "acpD_NowDateTime": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "acpD_NowID": {
+            "type": "string",
+            "nullable": true
+          },
+          "acpD_UPDDateTime": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "acpD_UPDID": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DeleteMyOfficeData": {
+        "type": "object",
+        "properties": {
+          "sid": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateMyOfficeData": {
+        "type": "object",
+        "properties": {
+          "acpD_Cname": {
+            "type": "string",
+            "nullable": true
+          },
+          "acpD_Ename": {
+            "type": "string",
+            "nullable": true
+          },
+          "acpD_Sname": {
+            "type": "string",
+            "nullable": true
+          },
+          "acpD_Email": {
+            "type": "string",
+            "nullable": true
+          },
+          "acpD_Status": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "acpD_Stop": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "acpD_StopMemo": {
+            "type": "string",
+            "nullable": true
+          },
+          "acpD_LoginID": {
+            "type": "string",
+            "nullable": true
+          },
+          "acpD_LoginPWD": {
+            "type": "string",
+            "nullable": true
+          },
+          "acpD_Memo": {
+            "type": "string",
+            "nullable": true
+          },
+          "acpD_NowDateTime": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "acpD_NowID": {
+            "type": "string",
+            "nullable": true
+          },
+          "acpD_UPDDateTime": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "acpD_UPDID": {
+            "type": "string",
+            "nullable": true
+          },
+          "sid": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

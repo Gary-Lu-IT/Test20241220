@@ -1,0 +1,66 @@
+[
+  {
+    "ContainingType": "TestWebAPI.Controllers.MyOfficeController",
+    "Method": "Delete",
+    "RelativePath": "MyOffice/Delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "TestWebAPI.Models.Client.DeleteMyOfficeData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestWebAPI.Controllers.MyOfficeController",
+    "Method": "Get",
+    "RelativePath": "MyOffice/Get",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "TestWebAPI.Models.Client.DeleteMyOfficeData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestWebAPI.Controllers.MyOfficeController",
+    "Method": "Insert",
+    "RelativePath": "MyOffice/Insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "TestWebAPI.Models.Client.AddMyOfficeData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TestWebAPI.Controllers.MyOfficeController",
+    "Method": "Update",
+    "RelativePath": "MyOffice/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "TestWebAPI.Models.Client.UpdateMyOfficeData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

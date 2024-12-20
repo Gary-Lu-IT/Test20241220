@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\GARY LU\\Documents\\Visual Studio 2022\\20241220DotNet\u6E2C\u9A57\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5BD75033-DF2D-489B-BE9E-54ED2E07CFB3}|TestWebAPI\\TestWebAPI.csproj|c:\\users\\gary lu\\documents\\visual studio 2022\\20241220dotnet\u6E2C\u9A57\\testwebapi\\controllers\\myofficecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BD75033-DF2D-489B-BE9E-54ED2E07CFB3}|TestWebAPI\\TestWebAPI.csproj|solutionrelative:testwebapi\\controllers\\myofficecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BD75033-DF2D-489B-BE9E-54ED2E07CFB3}|TestWebAPI\\TestWebAPI.csproj|c:\\users\\gary lu\\documents\\visual studio 2022\\20241220dotnet\u6E2C\u9A57\\testwebapi\\models\\client\\myofficemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BD75033-DF2D-489B-BE9E-54ED2E07CFB3}|TestWebAPI\\TestWebAPI.csproj|solutionrelative:testwebapi\\models\\client\\myofficemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BD75033-DF2D-489B-BE9E-54ED2E07CFB3}|TestWebAPI\\TestWebAPI.csproj|c:\\users\\gary lu\\documents\\visual studio 2022\\20241220dotnet\u6E2C\u9A57\\testwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BD75033-DF2D-489B-BE9E-54ED2E07CFB3}|TestWebAPI\\TestWebAPI.csproj|solutionrelative:testwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BD75033-DF2D-489B-BE9E-54ED2E07CFB3}|TestWebAPI\\TestWebAPI.csproj|c:\\users\\gary lu\\documents\\visual studio 2022\\20241220dotnet\u6E2C\u9A57\\testwebapi\\testwebapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{5BD75033-DF2D-489B-BE9E-54ED2E07CFB3}|TestWebAPI\\TestWebAPI.csproj|solutionrelative:testwebapi\\testwebapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyOfficeModels.cs",
+              "DocumentMoniker": "C:\\Users\\GARY LU\\Documents\\Visual Studio 2022\\20241220DotNet\u6E2C\u9A57\\TestWebAPI\\Models\\Client\\MyOfficeModels.cs",
+              "RelativeDocumentMoniker": "TestWebAPI\\Models\\Client\\MyOfficeModels.cs",
+              "ToolTip": "C:\\Users\\GARY LU\\Documents\\Visual Studio 2022\\20241220DotNet\u6E2C\u9A57\\TestWebAPI\\Models\\Client\\MyOfficeModels.cs",
+              "RelativeToolTip": "TestWebAPI\\Models\\Client\\MyOfficeModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:22:25.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyOfficeController.cs",
+              "DocumentMoniker": "C:\\Users\\GARY LU\\Documents\\Visual Studio 2022\\20241220DotNet\u6E2C\u9A57\\TestWebAPI\\Controllers\\MyOfficeController.cs",
+              "RelativeDocumentMoniker": "TestWebAPI\\Controllers\\MyOfficeController.cs",
+              "ToolTip": "C:\\Users\\GARY LU\\Documents\\Visual Studio 2022\\20241220DotNet\u6E2C\u9A57\\TestWebAPI\\Controllers\\MyOfficeController.cs",
+              "RelativeToolTip": "TestWebAPI\\Controllers\\MyOfficeController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAIwDcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:15:34.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\GARY LU\\Documents\\Visual Studio 2022\\20241220DotNet\u6E2C\u9A57\\TestWebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "TestWebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\GARY LU\\Documents\\Visual Studio 2022\\20241220DotNet\u6E2C\u9A57\\TestWebAPI\\Program.cs",
+              "RelativeToolTip": "TestWebAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:15:09.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TestWebAPI.http",
+              "DocumentMoniker": "C:\\Users\\GARY LU\\Documents\\Visual Studio 2022\\20241220DotNet\u6E2C\u9A57\\TestWebAPI\\TestWebAPI.http",
+              "RelativeDocumentMoniker": "TestWebAPI\\TestWebAPI.http",
+              "ToolTip": "C:\\Users\\GARY LU\\Documents\\Visual Studio 2022\\20241220DotNet\u6E2C\u9A57\\TestWebAPI\\TestWebAPI.http",
+              "RelativeToolTip": "TestWebAPI\\TestWebAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-12-20T08:15:05.051Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
